@@ -1,0 +1,38 @@
+{
+  "name": "javascript-patterns",
+  "version": "1.0.0",
+  "description": "design patterns in javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielaraujof/javascript-patterns.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "design",
+    "patterns"
+  ],
+  "author": "Gabriel Araujo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielaraujof/javascript-patterns/issues"
+  },
+  "homepage": "https://github.com/gabrielaraujof/javascript-patterns#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
+  }
+}
